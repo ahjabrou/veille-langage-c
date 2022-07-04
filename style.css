@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: 'Franklin Gothic Medium';
+    color: rgb(82, 59, 70);
+    background-color: rgb(166, 224, 30);
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.container{
+    max-width: 1240px;
+    margin: auto;
+    padding: 0 8px;
+}
+
+.top-bar{
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-bottom: 3px solid #eeeeee;
+}
+
+h1{
+    font-size: large ;
+}
+
+h2{
+    text-decoration: underline;
+}
